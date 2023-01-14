@@ -59,13 +59,15 @@ export default function Home() {
             <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl'>
               <b> Welcome to my website portfolio!</b>
             </p>
-            <div className='grid grid-cols-3 gap-4 sm:grid-cols-2 sm:gap-2 sm:flex sm:flex-wrap justify-center text-xl dark:text-gray-400'>
-              <DiHtml5 className='sm:text-5xl' />
-              <DiCss3 className='sm:text-5xl' />
-              <DiJavascript1 className='sm:text-5xl' />
-              <DiReact className='sm:text-5xl' />
-              <DiJava className='sm:text-5xl' />
-              <SiMysql className='sm:text-5xl' />
+            <div className='flex flex-col items-center justify-center'>
+              <div className='grid grid-cols-3 gap-4 sm:grid-cols-2 sm:gap-2 sm:flex sm:flex-wrap justify-center items-center text-xl dark:text-gray-400 '>
+                <DiHtml5 className='sm:text-5xl' />
+                <DiCss3 className='sm:text-5xl' />
+                <DiJavascript1 className='sm:text-5xl' />
+                <DiReact className='sm:text-5xl' />
+                <DiJava className='sm:text-5xl' />
+                <SiMysql className='sm:text-5xl' />
+              </div>
             </div>
             <div className='flex justify-center w-full'>
               <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96 sm:w-64 sm:h-64 sm:mx-auto '>
