@@ -59,20 +59,27 @@ export default function Home() {
             <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl'>
               <b> Welcome to my website portfolio!</b>
             </p>
-            <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
-              <DiHtml5 />
-              <DiCss3 />
-              <DiJavascript1 />
-              <DiReact />
-              <DiJava />
-              <SiMysql />
+            <div className='grid grid-cols-3 gap-4 sm:grid-cols-2 sm:gap-2 sm:flex sm:flex-wrap justify-center text-xl dark:text-gray-400'>
+              <DiHtml5 className='sm:text-5xl' />
+              <DiCss3 className='sm:text-5xl' />
+              <DiJavascript1 className='sm:text-5xl' />
+              <DiReact className='sm:text-5xl' />
+              <DiJava className='sm:text-5xl' />
+              <SiMysql className='sm:text-5xl' />
             </div>
-            <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96'>
-              <Image alt='Image' src={deved} layout='fill' objectFit='cover' />
+            <div className='flex justify-center w-full'>
+              <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96 sm:w-64 sm:h-64 sm:mx-auto '>
+                <Image
+                  alt='Image'
+                  src={deved}
+                  layout='fill'
+                  objectFit='cover'
+                />
+              </div>
             </div>
           </div>
         </section>
-        <section className='text-center py-10'>
+        <section className='text-center py-10 '>
           <h2 className='text-4xl pb-5 text-teal-500 '>Contact Me</h2>
           <p className='text-md py-2 pb-5 text-gray-800 dark:text-gray-200 '>
             If you have any inquiries or would like to work with me, please
@@ -94,7 +101,7 @@ export default function Home() {
             toniabouabsi000@gmail.com
           </p>
         </section>
-        <section>
+        <section className='text-center'>
           <h3 className='text-3xl py-1   text-teal-500 '>About Me</h3>
           <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
             I am a recent graduate in Computer Science with a passion for web
@@ -109,7 +116,7 @@ export default function Home() {
           </p>
         </section>
         {/* <Cards /> */}
-        <section className='py-10'>
+        <section className='py-10 text-center'>
           <div>
             <h3 className='text-3xl py-1 text-teal-500 '>Portfolio</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
