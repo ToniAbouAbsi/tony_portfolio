@@ -1,6 +1,5 @@
 import Head from 'next/head';
-// import Cards from './Components/Cards';
-
+//
 import {
   DiHtml5,
   DiCss3,
@@ -42,7 +41,7 @@ export default function Home() {
                 <a
                   className='bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8'
                   target='blank'
-                  href='https://www.linkedin.com/feed/'
+                  href='https://www.linkedin.com/in/tony-abou-absi/'
                 >
                   LinkedIn
                 </a>
