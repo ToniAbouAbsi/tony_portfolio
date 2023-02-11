@@ -15,6 +15,7 @@ import deved from '../public/dev-ed-wave.png';
 import Image from 'next/image';
 import Project1 from '../public/Project1.png';
 import Project2 from '../public/Project2.png';
+import Project3 from '../public/Project3.png';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -134,6 +135,18 @@ export default function Home() {
             </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
+            <div
+              className='basis-1/3 flex-1 m-auto
+                '
+            >
+              <a href='https://moodytunes.onrender.com/' target='blank'>
+                <Image
+                  alt='Image3'
+                  className='rounded-lg object-cover'
+                  src={Project3}
+                />
+              </a>
+            </div>
             <div
               className='basis-1/3 flex-1 m-auto
                 '
